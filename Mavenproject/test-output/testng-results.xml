@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-18T23:29:39 SGT" name="Default suite" finished-at="2023-08-18T23:29:45 SGT" duration-ms="5711">
+    <groups>
+      <group name="N">
+        <method signature="realtime.visiting()[pri:0, instance:p3.realtime@1530c739]" name="visiting" class="p3.realtime"/>
+        <method signature="realtime.max()[pri:1, instance:p3.realtime@1530c739]" name="max" class="p3.realtime"/>
+        <method signature="realtime.refresh()[pri:2, instance:p3.realtime@1530c739]" name="refresh" class="p3.realtime"/>
+      </group> <!-- N -->
+    </groups>
+    <test started-at="2023-08-18T23:29:39 SGT" name="Default test" finished-at="2023-08-18T23:29:45 SGT" duration-ms="5711">
+      <class name="p3.realtime">
+        <test-method signature="visiting()[pri:0, instance:p3.realtime@1530c739]" started-at="2023-08-18T23:29:39 SGT" name="visiting" description="visiting website" finished-at="2023-08-18T23:29:41 SGT" duration-ms="1387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visiting -->
+        <test-method signature="max()[pri:1, instance:p3.realtime@1530c739]" started-at="2023-08-18T23:29:41 SGT" name="max" description="maximising website" finished-at="2023-08-18T23:29:41 SGT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- max -->
+        <test-method signature="refresh()[pri:2, instance:p3.realtime@1530c739]" started-at="2023-08-18T23:29:41 SGT" name="refresh" description="refreshing website" finished-at="2023-08-18T23:29:41 SGT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method signature="refresh()[pri:2, instance:p3.realtime@1530c739]" started-at="2023-08-18T23:29:41 SGT" name="refresh" description="refreshing website" finished-at="2023-08-18T23:29:41 SGT" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method signature="refresh()[pri:2, instance:p3.realtime@1530c739]" started-at="2023-08-18T23:29:41 SGT" name="refresh" description="refreshing website" finished-at="2023-08-18T23:29:41 SGT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method signature="clicking()[pri:3, instance:p3.realtime@1530c739]" started-at="2023-08-18T23:29:41 SGT" name="clicking" description="clicking" depends-on-groups="N" finished-at="2023-08-18T23:29:42 SGT" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicking -->
+        <test-method signature="closing()[pri:4, instance:p3.realtime@1530c739]" started-at="2023-08-18T23:29:42 SGT" name="closing" description="closing website" depends-on-groups="N" finished-at="2023-08-18T23:29:45 SGT" duration-ms="3123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- p3.realtime -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
