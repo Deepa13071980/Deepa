@@ -16,7 +16,7 @@ public class t1 {
 		ob.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 		System.out.println(ob.getTitle());
 		System.out.println(ob.getCurrentUrl());
-		ob.navigate().refreh();
+		ob.navigate().refresh();
 		
 		
 		

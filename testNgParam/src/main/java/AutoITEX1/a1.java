@@ -18,7 +18,7 @@ public class a1 {
 			ob.findElementByCssSelector("#basicDetails > div.padding-15 > div:nth-child(4) > div.uploadResumeCont > div").click();
 	ob.get("https://www.monsterindia.com/seeker/registration"); //Testing webpage
 		Thread.sleep(3000);
-		ob.findElementByCssSelector("#basicDetails > div.padding-15 > div:nth-child(4) > div.uploadResumeCont > div").click();
+		//ob.findElementByCssSelector("#basicDetails > div.padding-15 > div:nth-child(4) > div.uploadResumeCont > div").click();
 		Runtime.getRuntime().exec("C:\\Users\\Lenovo\\Desktop\\AutiIT files\\deepaa1.exe");
 }
 }
